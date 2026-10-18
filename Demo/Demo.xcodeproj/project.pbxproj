@@ -6,6 +6,10 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9E0FF9F130849C3C004EDACB /* MyComponent in Frameworks */ = {isa = PBXBuildFile; productRef = 9E0FF9F030849C3C004EDACB /* MyComponent */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		9E0FF9C0308499D1004EDACB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -64,6 +68,7 @@
 		9E0FF9A6308499CF004EDACB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				9E0FF9F130849C3C004EDACB /* MyComponent in Frameworks */,
 			);
 		};
 		9E0FF9BC308499D1004EDACB /* Frameworks */ = {
@@ -116,6 +121,9 @@
 				9E0FF9AB308499CF004EDACB /* Demo */,
 			);
 			name = Demo;
+			packageProductDependencies = (
+				9E0FF9F030849C3C004EDACB /* MyComponent */,
+			);
 			productName = Demo;
 			productReference = 9E0FF9A9308499CF004EDACB /* Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -194,6 +202,9 @@
 			);
 			mainGroup = 9E0FF9A0308499CF004EDACB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9E0FF9EF30849C3C004EDACB /* XCRemoteSwiftPackageReference "MyComponent" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9E0FF9AA308499CF004EDACB /* Products */;
 			projectDirPath = "";
@@ -555,6 +566,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E0FF9EF30849C3C004EDACB /* XCRemoteSwiftPackageReference "MyComponent" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yangxinliang/MyComponent.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E0FF9F030849C3C004EDACB /* MyComponent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E0FF9EF30849C3C004EDACB /* XCRemoteSwiftPackageReference "MyComponent" */;
+			productName = MyComponent;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9E0FF9A1308499CF004EDACB /* Project object */;
 	validationLevel = 1;
