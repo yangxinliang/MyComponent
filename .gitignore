@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+
+# Xcode build output
+DerivedData/
+build/
+
+# Xcode user-specific files
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Swift / Xcode build artifacts
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcresult
+*.xccovreport
+*.xccovarchive
