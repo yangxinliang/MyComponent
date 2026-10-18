@@ -27,3 +27,6 @@ xcuserdata/
 *.xcresult
 *.xccovreport
 *.xccovarchive
+
+# Xcode / SwiftPM local metadata
+.swiftpm/
