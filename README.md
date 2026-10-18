@@ -1,2 +1,0 @@
-# MyComponent
-swift sdk
